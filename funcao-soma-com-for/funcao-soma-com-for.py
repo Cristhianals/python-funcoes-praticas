@@ -1,4 +1,4 @@
-def soma(l):
+def somaaa(l):
     total = 0
     x = 0
     for e in l:

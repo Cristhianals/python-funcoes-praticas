@@ -21,14 +21,14 @@ def fibonacci(n):
         x += 1
     return fibonaci[1]
 print(fibonacci(10))
-def fibonaccichatgpt(n):
+def fibonacci1(n):
     if n == 0:
         return 0
     a, b = 0, 1
     for _ in range(2, n + 1):
         a, b = b, a + b
     return b
-def fibonaccigpt2(n):
+def fibonacci2(n):
     if n == 0:
         return 0
     anterior, atual = 0, 1
