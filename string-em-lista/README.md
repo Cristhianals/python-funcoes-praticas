@@ -37,6 +37,8 @@ Esse tipo de verificação é muito comum em:
 - sistemas de login
 - validação de opções
 
+---
+
 ## 🚀 Código da solução  
 
 O código completo está disponível em **[string-em-lista.py](./string-em-lista.py)**.
