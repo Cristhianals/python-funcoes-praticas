@@ -44,7 +44,7 @@ Esse processo imita o Fibonacci clássico, porém sem recursão — mais rápido
 
 ## 🚀 Código da solução  
 
-O código completo está disponível em **[solucao.py](./solucao.py)**.
+O código completo está disponível em **[fibonacci-sem-recursao.py](./fibonacci-sem-recursao.py)**.
 
 ---
 
