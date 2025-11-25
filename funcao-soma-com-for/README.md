@@ -1,6 +1,7 @@
 # 🟦 Função Soma com `for` (Evitando Problemas com `while`)  
 
 ## 📋 Enunciado 
+
 Altere o programa abaixo para que utilize o loop **`for`** no lugar do **`while`**, garantindo que a função funcione mesmo quando a lista tiver menos elementos do que o esperado.
 
 ```python
@@ -23,6 +24,7 @@ O exercício mostra por que, em alguns casos, um `while` pode gerar erro ao tent
 ---
 
 ## 💡 Objetivo do exercício  
+
 - Substituir o uso de `while` por `for` em cenários onde a iteração depende do tamanho da lista.  
 - Entender como evitar erros de índice ("index out of range").  
 - Criar funções mais **genéricas**, que funcionem para listas de qualquer tamanho.  
@@ -31,6 +33,7 @@ O exercício mostra por que, em alguns casos, um `while` pode gerar erro ao tent
 ---
 
 ## 🧠 Explicação do raciocínio  
+
 Neste exercício, existem três funções demonstrando três abordagens diferentes:
 
 ### 1️⃣ **Iteração limitada manualmente usando `for`**  
@@ -69,7 +72,8 @@ vai causar um erro (`IndexError`). Por isso o `for` é tão útil, neste caso, e
 ---
 
 ## 🚀 Código da solução
-O código completo está disponível em [solucao.py](./solucao.py)
+
+O código completo está disponível em **[funcao-soma-com-for.py](./funcao-soma-com-for.py)**
 
 ---
 
@@ -92,11 +96,3 @@ print(somaa(l))
 - Como controlar a quantidade de elementos somados mesmo usando `for`.
 - Como entender os limites naturais da iteração em listas.
 - Diferença entre percorrer elementos (`for e in l`) e percorrer índices (`for i in range(...)`).
-
----
-
-## 🔧 Melhorias Possíveis
-
-- Permitir que o usuário escolha quantos elementos devem ser somados.
-- Validar se a lista contém apenas números.
-- Transformar a função em somatória total (sem limite de 5).

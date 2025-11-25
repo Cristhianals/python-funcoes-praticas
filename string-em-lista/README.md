@@ -39,7 +39,7 @@ Esse tipo de verificação é muito comum em:
 
 ## 🚀 Código da solução  
 
-O código completo está disponível em **[solucao.py](./solucao.py)**.
+O código completo está disponível em **[string-em-lista.py](./string-em-lista.py)**.
 
 ---
 

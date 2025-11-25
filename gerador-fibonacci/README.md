@@ -1,12 +1,14 @@
 # 🔢 Gerador da Sequência de Fibonacci
 
 ## 📋 Enunciado  
+
 Escreva um **gerador** capaz de produzir a série de **Fibonacci**.  
 A função deve gerar os números da sequência **sob demanda**, usando `yield`.
 
 ---
 
 ## 💡 Objetivo do exercício  
+
 - Criar funções geradoras (`yield`) em Python.  
 - Produzir elementos de uma sequência **sob demanda**, sem armazenar toda a lista.  
 - Manipular variáveis temporárias para calcular o próximo número da sequência.  
@@ -15,6 +17,7 @@ A função deve gerar os números da sequência **sob demanda**, usando `yield`.
 ---
 
 ## 🧠 Explicação do raciocínio  
+
 1. Começamos com os dois primeiros elementos da sequência:  
    - `p = 0` (anterior)  
    - `s = 1` (atual)  
@@ -28,7 +31,7 @@ A função deve gerar os números da sequência **sob demanda**, usando `yield`.
 
 ## 🚀 Código da solução
 
-O código completo está disponível em **[solucao.py](./solucao.py)**.
+O código completo está disponível em **[gerador-fibonacci.py](./gerador-fibonacci.py)**.
 
 ---
 

@@ -44,7 +44,7 @@ Esse tipo de função é muito comum em:
 
 ## 🚀 Código da solução  
 
-O código completo está disponível em **[solucao.py](./solucao.py)**
+O código completo está disponível em **[validacao-opcoes-input.py](./validacao-opcoes-input.py)**
 
 ## 🖨 Exemplo de execução
 
@@ -78,7 +78,3 @@ if entrada in opcoes:
     return entrada
 
 ```
-- Mostrar dinamicamente todas as opções válidas para o usuário.
-- Criar uma versão que aceita apenas letras alfabéticas.
-- Criar uma versão que retorna mensagens personalizadas.
-- Criar função que aceita opções como "abcxyz" e verifica tudo com in.

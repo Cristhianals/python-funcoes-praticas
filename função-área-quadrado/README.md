@@ -1,6 +1,7 @@
 # Função Área do Quadrado ⬛
 
 ## 📋 Enunciado
+
 Escreva uma função que receba o lado de um quadrado e retorne sua área, usando a fórmula:  
 **A = lado²**
 
@@ -11,6 +12,7 @@ Escreva uma função que receba o lado de um quadrado e retorne sua área, usand
 ---
 
 ## 💡 Objetivo do exercício
+
 - Praticar a criação de funções em Python.  
 - Aplicar operadores aritméticos (`**`) para calcular potências.  
 - Retornar valores numéricos a partir de funções.  
@@ -18,6 +20,7 @@ Escreva uma função que receba o lado de um quadrado e retorne sua área, usand
 ---
 
 ## 🧠 Explicação do raciocínio
+
 A função `area_quadrado` recebe o comprimento do lado do quadrado e retorna o quadrado desse valor (`lado ** 2`).  
 É uma maneira direta de calcular a área usando operadores matemáticos do Python, sem necessidade de loops ou condicionais.
 
@@ -25,11 +28,12 @@ A função `area_quadrado` recebe o comprimento do lado do quadrado e retorna o 
 
 ## 🚀 Código da solução
 
-O código completo está disponível em [solucao.py](./solucao.py)
+O código completo está disponível em **[função-área-quadrado.py](./função-área-quadrado.py)**
 
 ---
 
 ## 🖥 Exemplo de execução
+
 ```text
 area_quadrado(4)  
 16 
@@ -55,9 +59,3 @@ def area_quadrado(lado):
 - Como funções podem encapsular fórmulas matemáticas para reutilização.
 - Entender que Python oferece funções built-in, como pow(), que podem substituir operadores.
 
----
-
-## 💡 Extra: Possíveis melhorias
-
-- Validar se o lado é um número positivo.
-- Criar funções para outras formas geométricas (retângulo, triângulo, círculo) usando lógica semelhante.

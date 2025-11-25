@@ -1,6 +1,7 @@
 # 🎯 Jogo de Adivinhação com 3 Tentativas
 
 ## 📋 Enunciado  
+
 Altere o programa abaixo:
 
 ```python
@@ -49,7 +50,7 @@ Esse padrão é muito comum em jogos simples, autenticações e loops com condi�
 
 ## 🚀 Código da solução 
 
-O código completo está disponível em **[solucao.py](./solucao.py)**  
+O código completo está disponível em **[funcao-random-randint.py](./funcao-random-randint.py)**  
 
 ---
 ## 🖨 Exemplo de execução

@@ -38,7 +38,7 @@ mmc(a, b) = \frac{|a \cdot b|}{mdc(a, b)}
 
 ## 🚀 Código da solução 
 
-O código completo está disponível em **[solucao.py](./solucao.py)**  
+O código completo está disponível em **[funcao-mmc.py](./funcao-mmc.py)**  
 
 ---
 

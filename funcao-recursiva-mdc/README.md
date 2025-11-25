@@ -1,6 +1,7 @@
 # 🔢 Função Recursiva MDC (Maior Divisor Comum)  
 
 ## 📋 Enunciado  
+
 Escreva uma função **recursiva** que calcule o **Maior Divisor Comum (MDC)** entre dois números `a` e `b`, assumindo que `a > b`.  
 
 A função deve seguir a regra:
@@ -21,6 +22,7 @@ mdc(b, a \% b) & \text{caso contrário}
 ---
 
 ## 💡 Objetivo do exercício  
+
 - Praticar **recursão** em Python.  
 - Entender o algoritmo de **Euclides** para MDC.  
 - Aprender a controlar chamadas recursivas e condição de parada (`base case`).  
@@ -29,6 +31,7 @@ mdc(b, a \% b) & \text{caso contrário}
 ---
 
 ## 🧠 Explicação do raciocínio  
+
 1. O algoritmo de **Euclides** diz que o MDC de dois números `a` e `b` pode ser calculado usando `mdc(b, a % b)`.  
 2. A função recursiva termina quando `b == 0`, retornando `a`.  
 3. A cada chamada recursiva, os valores diminuem até atingir a condição de parada.  
@@ -40,7 +43,7 @@ mdc(b, a \% b) & \text{caso contrário}
 
 ## 🚀 Código da solução 
 
-O código completo está disponível em **[solucao.py](./solucao.py)**  
+O código completo está disponível em **[funcao-recursiva-mdc.py](./funcao-recursiva-mdc.py)**  
 
 ---
 

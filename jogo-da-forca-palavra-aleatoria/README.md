@@ -1,6 +1,7 @@
 # 🔤 Jogo da Forca com Palavra Aleatória
 
 ## 📋 Enunciado  
+
 Dado o programa original:
 
 ```python
@@ -71,7 +72,7 @@ while True:
 
 ## 🚀 Código da solução  
 
-O código completo está disponível em **[solucao.py](./solucao.py)**.
+O código completo está disponível em **[jogo-da-forca-palavra-aleatoria.py](./jogo-da-forca-palavra-aleatoria.py)**.
 
 ---
 
@@ -106,14 +107,3 @@ p o _ _ _ _
 - Como construir a forca passo a passo.
 - Como usar listas para armazenar acertos e erros.
 - Como atualizar dinamicamente a “senha” com underscores.
-
----
-
-## 🔧 Extras: Melhorias possíveis
-
-- Usar `random.choice(palavras)` (mais simples).
-- Mostrar letras já tentadas.
-- Criar contador de acertos/erros.
-- Transformar o jogo em função reutilizável.
-- Adicionar desenho da forca mais detalhado.
-- Fazer versão com interface gráfica.

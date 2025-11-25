@@ -1,6 +1,7 @@
 # Função Pesquisa em Listas 🔍
 
 ## 📝 Enunciado
+
 Escreva uma função que utilize **métodos de pesquisa em lista**, explorando diferentes formas de localizar valores dentro de estruturas de dados.
 
 O exercício deve demonstrar duas abordagens:
@@ -11,6 +12,7 @@ O exercício deve demonstrar duas abordagens:
 ---
 
 ## 🎯 Objetivo do exercício
+
 - Praticar diferentes formas de pesquisa em listas.  
 - Entender o uso do método `.find()` para localizar substrings.  
 - Utilizar o operador `in` para busca simples dentro de listas.  
@@ -38,7 +40,8 @@ A segunda versão, `pesquisas(l, valor)`, demonstra o uso direto do operador `in
 ---
 
 ## 🚀 Código da solução
-O código completo está disponível em [solucao.py](./solucao.py)
+
+O código completo está disponível em **[funcao-pesquisa-em-lista.py](./funcao-pesquisa-em-lista.py)**
 
 ---
 
@@ -77,13 +80,3 @@ print(l[3][3])
 - Como enumerate() ajuda a rastrear índices da lista durante a busca.
 - Construção dinâmica de resultados usando listas e join().
 - Uso do operador in para buscas diretas e rápidas em listas.
-
----
-
-## ✨ Melhorias e variações possíveis
-
-- Ignorar diferenças entre maiúsculas e minúsculas com .lower().
-- Permitir buscas completas por palavras usando .split() ou regex.
-- Retornar também a quantidade total de ocorrências encontradas.
-- Permitir buscar vários valores ao mesmo tempo.
-- Criar uma versão otimizada usando algoritmos de busca mais avançados.

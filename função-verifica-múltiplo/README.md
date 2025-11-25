@@ -1,6 +1,7 @@
 # Função Verifica Múltiplo 🔢
 
 ## 📋 Enunciado
+
 Escreva uma função que receba dois números como parâmetros e retorne `True` se o primeiro for múltiplo do segundo, caso contrário, retorne `False`.
 
 💡 **Valores esperados**
@@ -11,6 +12,7 @@ Escreva uma função que receba dois números como parâmetros e retorne `True` 
 ---
 
 ## 💡 Objetivo do exercício
+
 - Praticar a criação de funções em Python.  
 - Usar operadores aritméticos para lógica condicional.  
 - Retornar valores booleanos (`True`/`False`) a partir de condições.  
@@ -18,6 +20,7 @@ Escreva uma função que receba dois números como parâmetros e retorne `True` 
 ---
 
 ## 🧠 Explicação do raciocínio
+
 A função `multiplo` verifica se `a` é múltiplo de `b`.  
 No código fornecido, foi usado um teste específico:  
 - `(b * 2 == a)` → verifica se `a` é exatamente o dobro de `b`.  
@@ -39,7 +42,7 @@ def multiplo(a, b):
 
 ## 🚀 Código da solução
 
-O código completo está disponível em [solucao.py](./solucao.py)
+O código completo está disponível em **[função-verifica-múltiplo.py](./função-verifica-múltiplo.py)**
 
 ---
 
@@ -60,11 +63,4 @@ True
 - Diferença entre checagens específicas (dobro ou igual) e abordagens gerais (%).
 - Interpretar e validar condições matemáticas simples em código.
 
----
-
-## 💡 Extra: Melhorias possíveis
-
-- Tratar casos onde b = 0 para evitar divisão por zero.
-- Aceitar números negativos sem alterar a lógica de múltiplos.
-- Usar o operador % para criar funções mais genéricas e reutilizáveis.
 

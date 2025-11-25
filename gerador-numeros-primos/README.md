@@ -1,12 +1,14 @@
 # 🔢 Gerador de Números Primos com `yield`
 
 ## 📋 Enunciado  
+
 Escreva um **gerador** capaz de produzir a série dos **números primos**.  
 O gerador deve receber um valor limite (opcional) e produzir, um por vez, todos os primos até esse limite.
 
 ---
 
 ## 💡 Objetivo do exercício  
+
 - Entender como criar funções geradoras com `yield`.  
 - Identificar números primos sem usar recursão.  
 - Criar loops aninhados para varrer divisores.  
@@ -16,6 +18,7 @@ O gerador deve receber um valor limite (opcional) e produzir, um por vez, todos 
 ---
 
 ## 🧠 Explicação do raciocínio  
+
 Para gerar números primos:
 
 1. **Percorremos todos os números começando em 2**, até o valor final.  
@@ -30,7 +33,7 @@ Para gerar números primos:
 
 ## 🚀 Código da solução
 
-O código completo está disponível em **[solucao.py](./solucao.py)**.
+O código completo está disponível em **[gerador-numeros-primos.py](./gerador-numeros-primos.py)**.
 
 ---
 

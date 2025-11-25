@@ -26,7 +26,7 @@ Isso ajuda a entender como condicional, impressão e retorno podem trabalhar jun
 
 ## 🚀 Código da solução
 
-O código completo está disponível em [solucao.py](./solucao.py)
+O código completo está disponível em **[maximo-de-dois-numeros.py](./maximo-de-dois-numeros.py)**
 
 ## 🖥 Exemplo de execução
 

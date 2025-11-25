@@ -1,6 +1,7 @@
 # 🧮 Função Recursiva de Fatorial  
 
-## 📋 Enunciado  
+## 📋 Enunciado 
+
 Rastreie o programa abaixo e compare o seu resultado com o apresentado, observando as chamadas recursivas e como o valor final é construído:
 
 ```python
@@ -20,6 +21,7 @@ print(fatorial(4))
 ---
 
 ## 💡 Objetivo do exercício
+
 - Entender como funciona a **recursão** passo a passo.  
 - Analisar o fluxo de execução seguindo a ordem das chamadas.  
 - Compreender o conceito de **caso base** e **caso recursivo**.  
@@ -28,6 +30,7 @@ print(fatorial(4))
 ---
 
 ## 🧠 Explicação do raciocínio  
+
 A função `fatorial` funciona da seguinte forma:
 
 - Se `n` é `0` ou `1`, retorna **1** (caso base).  
@@ -75,7 +78,8 @@ Agora, a pilha de chamadas retorna os valores:
 ---
 
 ## 🚀 Código da solução
-O código completo está disponível em **[solucao.py](./solucao.py)**
+
+O código completo está disponível em **[funcao-fatorial-recursiva.py](./funcao-fatorial-recursiva.py)**
 
 ---
 

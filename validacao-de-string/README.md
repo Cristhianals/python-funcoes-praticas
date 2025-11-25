@@ -37,7 +37,7 @@ O raciocínio é:
 
 ## 🚀 Código da solução  
 
-O código completo está disponível em **[solucao.py](./solucao.py)**
+O código completo está disponível em **[validacao-de-string.py](./validacao-de-string.py)**
 
 ---
 
