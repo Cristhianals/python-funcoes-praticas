@@ -1,8 +1,10 @@
 # 🐍 Repositório de Exercícios de Funções em Python
 
 ## 📋 Sobre o Repositório
-Este repositório reúne uma coleção de **exercícios práticos de funções em Python** que desenvolvi como parte do meu aprendizado e prática constante.  
-Cada exercício foi criado para **praticar conceitos fundamentais**, reforçar lógica de programação e explorar diferentes recursos do Python relacionados a funções.
+
+Este repositório reúne **exercícios práticos de funções em Python** que desenvolvi para **aprender e fixar conceitos essenciais de criação de funções**.  
+O foco é criar funções para resolver problemas variados, explorando desde funções simples até **recursão, geradores, validação de dados e list comprehensions, Generator Comprehensions**.
+
 
 O objetivo é:
 
@@ -14,7 +16,7 @@ O objetivo é:
 
 ---
 
-## 🎯 O que você vai aprender
+## 🚀 Aprendizado geral do repositório
 - Como **definir funções** e utilizar **parâmetros e retornos**.  
 - Diferença entre funções que retornam valores e funções que apenas imprimem resultados.  
 - Como criar funções **recursivas** (ex.: MDC, fatorial).  
@@ -24,13 +26,22 @@ O objetivo é:
 
 ---
 
-## 🌟 Destaques
-Entre os exercícios desenvolvidos, alguns se destacam:
+## 🌟 Exercício em Destaque
 
-- **Jogo da Velha** → Combina lógica de funções, listas e loops.  
-- **Geradores de Fibonacci e Números Primos** → Prática de `yield` e sequências.  
-- **Funções de Validação de Strings e Listas** → Aplicações práticas de condicionais.  
-- **Recursão** → Exercícios de MDC, MMC, Fatorial.  
+### 📚 Função Recursiva para Impressão de Listas com Indentação
+
+- Percorre listas aninhadas de qualquer profundidade.
+- Imprime cada elemento em uma linha separada, com indentação crescente.
+- Demonstra domínio de:
+  - **Recursão**
+  - **`isinstance`** para detecção de listas
+  - Controle de fluxo com **try / except / else / finally**
+- Excelente para praticar **funções reutilizáveis e legíveis**, aplicando conceitos avançados de Python.
+
+💡 **Objetivo do exercício:**  
+Fixar conceitos de funções de forma prática e segura, lidando com estruturas complexas como listas dentro de listas.
+
+🔗 **Veja o exercício completo: [imprime-lista-indentada](./imprime-lista-indentada/)**
 
 ---
 
@@ -48,7 +59,7 @@ exercicios-python/
 ```
 
 Cada pasta corresponde a um exercício específico.  
-O arquivo `solucao.py` contém a implementação, e `README.md` explica o enunciado, exemplos, aprendizado e dicas.
+O arquivo `.py` contém a implementação, e `README.md` explica o enunciado, exemplos, aprendizado e dicas.
 
 ---
 
@@ -67,7 +78,7 @@ O arquivo `solucao.py` contém a implementação, e `README.md` explica o enunci
 1. Certifique-se de ter o **Python 3** instalado. 
 2. Clone o repositório:
 ```bash
-git clone https://github.com/Cristhianals/python-strings-praticas
+git clone https://github.com/Cristhianals/python-funcoes-praticas
 ```
 3. Entre na pasta do exercício desejado:
 ```bash
@@ -78,12 +89,5 @@ cd exercicio
 python exercicio.py
 ```
 5. Siga as instruções interativas que aparecerem no terminal
-
----
-
-## 💡 Dicas de Uso
-- Explore cada função **modificando parâmetros** para ver como elas se comportam.  
-- Utilize o **interpretador Python** para testar trechos das funções individualmente.  
-- Observe como **recursão e geradores** diferem de loops simples e funções tradicionais.  
-- Leia os `README.md` de cada exercício para **compreender a lógica e alternativas de solução**.  
+ 
 
